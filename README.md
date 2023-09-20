@@ -61,9 +61,13 @@ sudo apt install `python3 --version | grep -o -E "[0-9]+\.[0-9]{2}" | awk '{prin
 <br> اما راه راحت تر آن برای ویندوز این است که powershell را باز کنید و دستور زیر را بزنید
 </div>
 
+<div dir="ltr"> 
+
 ```
 winget install python
 ```
+</div>
+
 <div dir="rtl">
 در صورتی که از قبل پایتون روی ویندوز نصب باشد، آپدیت پایتون صورت میگیرد.
 </div>
@@ -80,16 +84,25 @@ curl -fsSL -o get-platformio.py https://raw.githubusercontent.com/platformio/pla
 برای لینوکس
 </div>
 
+<div dir="ltr"> 
+
 ```
 python3 get-platformio.py
 ```
 <div dir="rtl">
+
+</div> 
+
+
 برای ویندوز
 </div>
+
+<div dir="ltr"> 
 
 ```
 python get-platformio.py
 ```
+</div> 
 
 <div dir="rtl">
 
